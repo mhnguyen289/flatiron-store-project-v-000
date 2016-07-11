@@ -10,6 +10,7 @@
   <% end %> </p>
 <% end %>
 
+
 <p>Order total: <strong><%= number_to_currency(@cart.total.to_f/100) %></strong> </p>
 
 <% if @cart.status != "submitted" %>
